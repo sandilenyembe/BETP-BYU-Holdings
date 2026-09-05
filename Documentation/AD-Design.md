@@ -1,8 +1,19 @@
 # BYU Holdings Active Directory Design
 
-## Domain
+## Domain Information
 
-byuholdings.local
+Domain Name: byuholdings.local
+
+NetBIOS Name: BYUHOLDINGS
+
+Forest Functional Level:
+Windows Server 2022
+
+Domain Functional Level:
+Windows Server 2022
+
+Primary Domain Controller:
+DC01.byuholdings.local
 
 ## Organizational Units
 
@@ -18,18 +29,20 @@ byuholdings.local
 
 ## Administrative Accounts
 
-- BYU-Admin
+- BYU\Administrator
+- BYU\Svc_Backup
+- BYU\Svc_Automation
 
-## Service Accounts
+## Security Principles
 
-- svc-backup
-- svc-monitoring
+- Least Privilege Access
+- Role Based Access Control
+- Department-Based Group Membership
 
-## Workstations
+## Future Integrations
 
-- WIN11-01
-- WIN11-02
-
-## Servers
-
-- DC01
+- Microsoft Entra ID
+- Microsoft 365
+- Intune
+- Azure
+- Power Platform
