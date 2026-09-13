@@ -71,3 +71,39 @@ Evidence:
 - Lab5-02-Tenant-Administration.png
 - Lab5-03-Enrollment-Overview.png
 - Lab5-04-All-Devices.png
+
+## Administrative Groups
+
+The following Microsoft Entra security groups were created to support endpoint management.
+
+### SG-Intune-Administrators
+
+Purpose:
+
+Administrative access delegation for Intune administration activities.
+
+### SG-BYU-Managed-Devices
+
+Purpose:
+
+Target group for managed production devices.
+
+### SG-BYU-Test-Devices
+
+Purpose:
+
+Testing and pilot deployments before production rollout.
+
+### SG-BYU-Compliance-Pilot
+
+Purpose:
+
+Pilot user and device group for compliance policy validation.
+
+## Benefits
+
+- Supports phased deployments
+- Reduces deployment risk
+- Aligns with enterprise Intune best practices
+- Enables future RBAC implementation
+- Simplifies policy assignment targeting
