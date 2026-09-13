@@ -1,0 +1,38 @@
+D:\HyperV\Virtual Machines\BYU-W11-01\Virtual Hard Disks\BYU-W11-01.vhdx Dynamic 37748736 85899345920
+
+
+
+PS C:\WINDOWS\system32> Get-VM | ForEach-Object {
+    [PSCustomObject]@{
+        VMName        = $_.Name
+        State         = $_.State
+        CPUCount      = $_.ProcessorCount
+        StartupMemory = $_.MemoryStartup / 1GB
+        AssignedMemory= $_.MemoryAssigned / 1GB
+        Uptime        = $_.Uptime
+        Host          = $env:COMPUTERNAME
+    }
+}
+
+
+
+VMName         : BYU-W11-01
+State          : Running
+CPUCount       : 2
+StartupMemory  : 4
+AssignedMemory : 4
+Uptime         : 00:07:36.3590000
+Host           : PERS-GAME
+
+VMName         : DC01
+State          : Running
+CPUCount       : 2
+StartupMemory  : 4
+AssignedMemory : 4
+Uptime         : 03:11:42.0540000
+Host           : PERS-GAME
+
+
+
+
+PS C:\WINDOWS\system32> 
