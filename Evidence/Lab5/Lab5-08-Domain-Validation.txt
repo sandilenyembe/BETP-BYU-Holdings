@@ -1,0 +1,13 @@
+Microsoft Windows [Version 10.0.26100.1742]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\System32>whoami
+byuholdings\sandile.admin
+
+C:\Windows\System32>hostname
+BYU-W11-01
+
+C:\Windows\System32>systeminfo | findstr /i domain
+Domain:                        byuholdings.local
+
+C:\Windows\System32>
