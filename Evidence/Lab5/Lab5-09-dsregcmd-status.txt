@@ -1,0 +1,83 @@
+Microsoft Windows [Version 10.0.26100.1742]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\sandile.admin>dsregcmd /status
+
++----------------------------------------------------------------------+
+| Device State                                                         |
++----------------------------------------------------------------------+
+
+             AzureAdJoined : NO
+          EnterpriseJoined : NO
+              DomainJoined : YES
+                DomainName : BYUHOLDINGS
+           Virtual Desktop : NOT SET
+               Device Name : BYU-W11-01.byuholdings.local
+
++----------------------------------------------------------------------+
+| User State                                                           |
++----------------------------------------------------------------------+
+
+                    NgcSet : NO
+           WorkplaceJoined : NO
+             WamDefaultSet : NO
+
++----------------------------------------------------------------------+
+| SSO State                                                            |
++----------------------------------------------------------------------+
+
+                AzureAdPrt : NO
+       AzureAdPrtAuthority : NO
+             EnterprisePrt : NO
+    EnterprisePrtAuthority : NO
+
++----------------------------------------------------------------------+
+| Diagnostic Data                                                      |
++----------------------------------------------------------------------+
+
+     Diagnostics Reference : www.microsoft.com/aadjerrors
+              User Context : UN-ELEVATED User
+               Client Time : 2026-09-13 12:10:31.000 UTC
+      AD Connectivity Test : PASS
+     AD Configuration Test : FAIL [0x80070002]
+        DRS Discovery Test : SKIPPED
+     DRS Connectivity Test : SKIPPED
+    Token acquisition Test : SKIPPED
+     Fallback to Sync-Join : ENABLED
+Fallback to Federated-Join : ENABLED
+
+     Previous Registration : 2026-09-13 11:57:05.000 UTC
+               Error Phase : discover
+          Client ErrorCode : 0x801c001d
+    Executing Account Name : BYUHOLDINGS\sandile.admin, sandile.admin@byuholdings.local
+
++----------------------------------------------------------------------+
+| IE Proxy Config for Current User                                     |
++----------------------------------------------------------------------+
+
+      Auto Detect Settings : YES
+    Auto-Configuration URL :
+         Proxy Server List :
+         Proxy Bypass List :
+
++----------------------------------------------------------------------+
+| WinHttp Default Proxy Config                                         |
++----------------------------------------------------------------------+
+
+               Access Type : DIRECT
+
++----------------------------------------------------------------------+
+| Ngc Prerequisite Check                                               |
++----------------------------------------------------------------------+
+
+            IsDeviceJoined : NO
+             IsUserAzureAD : NO
+             PolicyEnabled : NO
+          PostLogonEnabled : YES
+            DeviceEligible : NO
+        SessionIsNotRemote : NO
+            CertEnrollment : none
+              PreReqResult : WillNotProvision
+
+For more information, please visit https://www.microsoft.com/aadjerrors
+C:\Users\sandile.admin>
