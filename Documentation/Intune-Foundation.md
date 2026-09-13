@@ -38,3 +38,36 @@ Findings:
 ### Next Phase
 
 Windows 11 device enrollment testing.
+
+## Step 2 - Tenant Assessment
+
+### Enrollment Validation
+
+Navigation:
+
+Devices → Enrollment → Windows
+
+Available Enrollment Features:
+
+- Automatic Enrollment
+- CNAME Validation
+- Co-management Settings
+- Device Platform Restrictions
+- Device Limit Restrictions
+- Enrollment Notifications
+
+Assessment:
+
+The Microsoft Intune tenant is configured with the default enrollment framework and is capable of onboarding Windows devices.
+
+Current Managed Devices:
+0
+
+Readiness:
+Ready for Windows enrollment testing.
+
+Evidence:
+
+- Lab5-02-Tenant-Administration.png
+- Lab5-03-Enrollment-Overview.png
+- Lab5-04-All-Devices.png
