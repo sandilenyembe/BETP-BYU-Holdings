@@ -59,3 +59,26 @@ Activities:
 Outcome:
 
 Created the first managed endpoint for the BYU Holdings enterprise environment.
+
+## Windows Endpoint Deployment
+
+Deployed and domain-joined a Windows 11 workstation within the BYU Holdings enterprise lab environment.
+
+Activities:
+
+- Built Hyper-V virtual machine
+- Installed Windows 11
+- Joined computer to Active Directory domain
+- Validated authentication using domain credentials
+- Verified computer account creation in Active Directory
+
+Technologies:
+
+- Hyper-V
+- Windows 11
+- Active Directory
+- DNS
+
+Outcome:
+
+Established the first enterprise-managed endpoint, creating the foundation for Microsoft Intune enrollment and endpoint management.
