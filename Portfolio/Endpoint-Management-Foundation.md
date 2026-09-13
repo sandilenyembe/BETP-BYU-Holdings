@@ -82,3 +82,19 @@ Technologies:
 Outcome:
 
 Established the first enterprise-managed endpoint, creating the foundation for Microsoft Intune enrollment and endpoint management.
+
+## Hybrid Device Registration Troubleshooting
+
+Performed hybrid join readiness validation for BYU-W11-01 using dsregcmd.
+
+Activities:
+
+- Verified Active Directory domain membership.
+- Evaluated Microsoft Entra device registration status.
+- Reviewed Azure AD Primary Refresh Token (PRT) state.
+- Investigated hybrid join diagnostics and registration prerequisites.
+- Identified configuration gaps preventing hybrid device registration.
+
+Outcome:
+
+Successfully assessed the organization's hybrid join readiness and established a remediation path toward Microsoft Intune enrollment and modern endpoint management.
