@@ -107,3 +107,51 @@ Pilot user and device group for compliance policy validation.
 - Aligns with enterprise Intune best practices
 - Enables future RBAC implementation
 - Simplifies policy assignment targeting
+
+## Hybrid Join Assessment
+
+Device:
+BYU-W11-01
+
+Validation Tool:
+dsregcmd /status
+
+Results:
+
+Domain Joined:
+YES
+
+Azure AD Joined:
+NO
+
+Enterprise Joined:
+NO
+
+Azure AD PRT:
+NO
+
+Findings:
+
+- Active Directory connectivity successful.
+- Device registration to Microsoft Entra ID has not completed.
+- Hybrid Azure AD Join configuration requires additional setup.
+
+Diagnostic Information:
+
+AD Connectivity Test:
+PASS
+
+AD Configuration Test:
+FAIL (0x80070002)
+
+Client Error:
+0x801c001d
+
+Evidence:
+
+- Lab5-09-dsregcmd-status.txt
+- Lab5-10-Hybrid-Join-Status.png
+
+Status:
+
+Remediation Required
