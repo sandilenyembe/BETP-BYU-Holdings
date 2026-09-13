@@ -1,126 +1,40 @@
-# Microsoft Intune Foundation
+## Tenant Assessment
 
-## Lab
+### Tenant Administration
 
-BETP Lab 5 - Microsoft Intune Foundation
-
-## Objective
-
-Establish Microsoft Intune as the Enterprise Endpoint Management platform for BYU Holdings.
-
----
-
-## Environment
-
-### Company
-
-BYU Holdings
-
-### Domain
-
-byuholdings.local
-
-### Cloud Tenant
-
+Tenant Name:
 byuhold.onmicrosoft.com
 
-### Platform
-
-Microsoft 365
-
-### Endpoint Management Platform
-
+MDM Authority:
 Microsoft Intune
 
----
-
-## Intune Validation
-
-### Access Verification
-
-Date: 2026-09-13
-
-Result:
-
-Successfully accessed Microsoft Intune Admin Center.
-
-Portal:
-
-https://intune.microsoft.com
-
-Status:
-
+Account Status:
 Active
 
-Service Health:
+Licensed Users:
+9
 
-Healthy
+Intune Licenses:
+25
 
----
+Enrolled Devices:
+0
 
-## Evidence
+Service Release:
+2608
 
-Lab5-01-Intune-Home.png
+### Assessment
 
-Evidence Details:
+The BYU Holdings Microsoft Intune tenant is active and operational.
 
-- Intune Admin Center home page
-- Service Health healthy
-- Account active
-- No connector errors detected
-- Initial endpoint management environment validated
+Findings:
 
----
+- Intune is configured as the MDM authority.
+- Tenant licensing is available.
+- No devices have been enrolled.
+- Environment is ready for endpoint onboarding.
+- Hybrid identity integration has already been established through Microsoft Entra Connect Sync.
 
-## Current Device Inventory
+### Next Phase
 
-No managed devices enrolled yet.
-
----
-
-## Current Compliance Status
-
-Devices Not In Compliance: 0
-
-Configuration Policy Errors: 0
-
-Client App Installation Failures: 0
-
-Connector Errors: 0
-
----
-
-## Planned Intune Deployment
-
-### Device Groups
-
-BYU Managed Devices
-
-BYU Test Devices
-
-BYU Administrators
-
-### Planned Workloads
-
-- Device Enrollment
-- Compliance Policies
-- Configuration Profiles
-- Application Deployment
-- Endpoint Security
-- Update Management
-
----
-
-## Success Criteria
-
-- Intune accessible
-- Device management configured
-- Windows 11 enrollment tested
-- Compliance policies implemented
-- Configuration profiles deployed
-
----
-
-## Status
-
-In Progress
+Windows 11 device enrollment testing.
