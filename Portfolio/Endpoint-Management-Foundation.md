@@ -1,23 +1,15 @@
-# Endpoint Management Foundation
+## Intune Readiness Assessment
 
-Implemented Microsoft Intune as the endpoint management platform for BYU Holdings.
+Completed an Intune tenant assessment to validate Microsoft endpoint management readiness.
 
-Key Activities
+Activities completed:
 
-- Validated Intune tenant access
-- Confirmed service health
-- Assessed endpoint management readiness
-- Planned enterprise device enrollment strategy
-- Prepared environment for compliance and configuration management
+- Reviewed enrollment configuration
+- Validated Windows enrollment settings
+- Confirmed administrative access
+- Assessed default enrollment restrictions
+- Prepared tenant for future Windows device enrollment
 
-Technologies
+Outcome:
 
-- Microsoft Intune
-- Microsoft 365
-- Microsoft Entra ID
-- Active Directory
-- Microsoft Entra Connect
-
-Outcome
-
-Established the foundation for modern endpoint management and cloud-based device administration within a hybrid enterprise environment.
+The BYU Holdings tenant is ready to begin managed endpoint onboarding using Microsoft Intune.
