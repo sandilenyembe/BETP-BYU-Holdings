@@ -114,3 +114,17 @@ Activities:
 Outcome:
 
 Successfully assessed the organization's hybrid join readiness and established a remediation path toward Microsoft Intune enrollment and modern endpoint management.
+
+## Hybrid Join Configuration Review
+
+Reviewed Microsoft Entra Connect Sync configuration to verify support for hybrid device registration.
+
+Activities:
+
+- Examined synchronization configuration.
+- Identified device registration management options.
+- Assessed hybrid join readiness for Windows endpoints.
+
+Outcome:
+
+Confirmed the environment supports further hybrid device registration configuration required for Microsoft Intune enrollment.
