@@ -101,14 +101,16 @@ Successfully assessed the organization's hybrid join readiness and established a
 
 ## Hybrid Device Registration Troubleshooting
 
-Performed hybrid join readiness validation using dsregcmd.
+Performed hybrid join readiness validation for BYU-W11-01 using dsregcmd.
 
-Findings:
+Activities:
 
-- Device successfully domain joined.
-- Microsoft Entra device registration incomplete.
-- Conducted diagnostics and identified hybrid join configuration gap.
+- Verified Active Directory domain membership.
+- Evaluated Microsoft Entra device registration status.
+- Reviewed Azure AD Primary Refresh Token (PRT) state.
+- Investigated hybrid join diagnostics and registration prerequisites.
+- Identified configuration gaps preventing hybrid device registration.
 
 Outcome:
 
-Prepared environment for enterprise hybrid device registration and Intune enrollment.
+Successfully assessed the organization's hybrid join readiness and established a remediation path toward Microsoft Intune enrollment and modern endpoint management.
