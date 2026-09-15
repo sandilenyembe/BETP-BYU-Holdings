@@ -155,3 +155,28 @@ Evidence:
 Status:
 
 Remediation Required
+
+## Hybrid Join Remediation
+
+### Microsoft Entra Connect Review
+
+Validated available post-deployment configuration options within Microsoft Entra Connect Sync.
+
+Available Tasks:
+
+- View or export current configuration
+- Customize synchronization options
+- Configure device options
+- Refresh directory schema
+- Configure staging mode
+- Change user sign-in
+- Manage federation
+- Troubleshoot
+
+Assessment:
+
+Device registration settings are available for review and configuration through Microsoft Entra Connect Sync.
+
+Evidence:
+
+Lab5-11-EntraConnect-Configure.png
