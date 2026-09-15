@@ -98,3 +98,17 @@ Activities:
 Outcome:
 
 Successfully assessed the organization's hybrid join readiness and established a remediation path toward Microsoft Intune enrollment and modern endpoint management.
+
+## Hybrid Device Registration Troubleshooting
+
+Performed hybrid join readiness validation using dsregcmd.
+
+Findings:
+
+- Device successfully domain joined.
+- Microsoft Entra device registration incomplete.
+- Conducted diagnostics and identified hybrid join configuration gap.
+
+Outcome:
+
+Prepared environment for enterprise hybrid device registration and Intune enrollment.
