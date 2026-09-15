@@ -180,3 +180,32 @@ Device registration settings are available for review and configuration through 
 Evidence:
 
 Lab5-11-EntraConnect-Configure.png
+
+## Hybrid Join Configuration
+
+### Microsoft Entra Connect Device Options
+
+Configuration Path:
+
+Microsoft Entra Connect Sync
+→ Configure
+→ Configure Device Options
+
+Selected Configuration:
+
+Configure Hybrid Microsoft Entra ID Join
+
+Assessment:
+
+The BYU Holdings environment is configured to support hybrid device registration through Microsoft Entra Connect Sync.
+
+Purpose:
+
+- Register domain-joined devices in Microsoft Entra ID
+- Support Microsoft Intune enrollment
+- Enable modern authentication
+- Enable Conditional Access and compliance capabilities
+
+Evidence:
+
+Lab5-11-EntraConnect-Configure.png
