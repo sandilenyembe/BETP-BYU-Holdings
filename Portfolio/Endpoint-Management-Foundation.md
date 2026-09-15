@@ -128,3 +128,18 @@ Activities:
 Outcome:
 
 Confirmed the environment supports further hybrid device registration configuration required for Microsoft Intune enrollment.
+
+## Hybrid Device Registration Enablement
+
+Reviewed Microsoft Entra Connect device configuration options and verified support for Hybrid Microsoft Entra ID Join.
+
+Activities:
+
+- Accessed Entra Connect configuration wizard.
+- Reviewed available device registration options.
+- Validated Hybrid Microsoft Entra ID Join capability.
+- Confirmed readiness for Windows device registration.
+
+Outcome:
+
+Prepared the BYU Holdings environment for enterprise hybrid endpoint registration and Microsoft Intune integration.
