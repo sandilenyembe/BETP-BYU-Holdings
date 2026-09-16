@@ -240,3 +240,44 @@ Evidence:
 
 - Lab5-12-Hybrid-Join-OS.png
 - Lab5-13-Hybrid-Join-SCP.png
+
+## Hybrid Microsoft Entra ID Join Validation
+
+Device:
+
+BYU-W11-01
+
+Validation Tool:
+
+dsregcmd /status
+
+Results:
+
+AzureAdJoined : YES
+
+DomainJoined : YES
+
+DeviceAuthStatus : SUCCESS
+
+TPM Protected : YES
+
+Assessment:
+
+The device successfully completed Hybrid Microsoft Entra ID Join registration.
+
+Benefits:
+
+- Device visibility in Microsoft Entra ID
+- Support for Microsoft Intune enrollment
+- Modern authentication readiness
+- Conditional Access readiness
+- Compliance policy targeting
+
+Evidence:
+
+- Lab5-16-DeltaSync.txt
+- Lab5-17-dsregcmd-after-hybrid.txt
+
+Status:
+
+Completed
