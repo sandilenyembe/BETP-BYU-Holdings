@@ -1,0 +1,117 @@
+Microsoft Windows [Version 10.0.26200.9457]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\LocalAdmin>dsregcmd /status
+
++----------------------------------------------------------------------+
+| Device State                                                         |
++----------------------------------------------------------------------+
+
+             AzureAdJoined : YES
+          EnterpriseJoined : NO
+              DomainJoined : YES
+                DomainName : BYUHOLDINGS
+           Virtual Desktop : NOT SET
+               Device Name : BYU-W11-01.byuholdings.local
+
++----------------------------------------------------------------------+
+| Device Details                                                       |
++----------------------------------------------------------------------+
+
+                  DeviceId : 3ba969e5-dc2b-457b-ac6e-9d0fe05f37a8
+                Thumbprint : 24FCFB519516DCF972CAD7091F1FB9117769350D
+ DeviceCertificateValidity : [ 2026-09-15 23:50:54.000 UTC -- 2036-09-16 00:20:54.000 UTC ]
+            KeyContainerId : 29b1c426-6c87-440a-bd7a-63c94f6525a4
+               KeyProvider : Microsoft Platform Crypto Provider
+              TpmProtected : YES
+          DeviceAuthStatus : SUCCESS
+
++----------------------------------------------------------------------+
+| Tenant Details                                                       |
++----------------------------------------------------------------------+
+
+                TenantName :
+                  TenantId : 89dd019c-2512-494c-a4be-814019c27fbb
+               AuthCodeUrl : https://login.microsoftonline.com/89dd019c-2512-494c-a4be-814019c27fbb/oauth2/authorize
+            AccessTokenUrl : https://login.microsoftonline.com/89dd019c-2512-494c-a4be-814019c27fbb/oauth2/token
+                    MdmUrl :
+                 MdmTouUrl :
+          MdmComplianceUrl :
+               SettingsUrl :
+            JoinSrvVersion : 3.0
+                JoinSrvUrl : https://enterpriseregistration.windows.net/EnrollmentServer/device/
+                 JoinSrvId : urn:ms-drs:enterpriseregistration.windows.net
+             KeySrvVersion : 1.0
+                 KeySrvUrl : https://enterpriseregistration.windows.net/EnrollmentServer/key/
+                  KeySrvId : urn:ms-drs:enterpriseregistration.windows.net
+        WebAuthNSrvVersion : 1.0
+            WebAuthNSrvUrl : https://enterpriseregistration.windows.net/webauthn/89dd019c-2512-494c-a4be-814019c27fbb/
+             WebAuthNSrvId : urn:ms-drs:enterpriseregistration.windows.net
+    DeviceManagementSrvVer : 1.0
+    DeviceManagementSrvUrl : https://enterpriseregistration.windows.net/manage/89dd019c-2512-494c-a4be-814019c27fbb/
+     DeviceManagementSrvId : urn:ms-drs:enterpriseregistration.windows.net
+                   KerbSpn : adrs/enterpriseregistration.windows.net
+                   KerbUrl : https://login.microsoftonline.com/89dd019c-2512-494c-a4be-814019c27fbb/kerberos
+     JoinResourceSrvTlsUrl : https://certauth.enterpriseregistration.windows.net/EnrollmentServer/device/resource/89dd019c-2512-494c-a4be-814019c27fbb/
+
++----------------------------------------------------------------------+
+| User State                                                           |
++----------------------------------------------------------------------+
+
+                    NgcSet : NO
+           WorkplaceJoined : NO
+             WamDefaultSet : NO
+
++----------------------------------------------------------------------+
+| SSO State                                                            |
++----------------------------------------------------------------------+
+
+                AzureAdPrt : NO
+       AzureAdPrtAuthority :
+             EnterprisePrt : NO
+    EnterprisePrtAuthority :
+
++----------------------------------------------------------------------+
+| Diagnostic Data                                                      |
++----------------------------------------------------------------------+
+
+        AadRecoveryEnabled : NO
+    Executing Account Name : BYU-W11-01\LocalAdmin
+               KeySignTest : PASSED
+
+        DisplayNameUpdated : YES
+          OsVersionUpdated : YES
+           HostNameUpdated : YES
+
+      Last HostName Update : NONE
+
++----------------------------------------------------------------------+
+| IE Proxy Config for Current User                                     |
++----------------------------------------------------------------------+
+
+      Auto Detect Settings : YES
+    Auto-Configuration URL :
+         Proxy Server List :
+         Proxy Bypass List :
+
++----------------------------------------------------------------------+
+| WinHttp Default Proxy Config                                         |
++----------------------------------------------------------------------+
+
+               Access Type : DIRECT
+
++----------------------------------------------------------------------+
+| Ngc Prerequisite Check                                               |
++----------------------------------------------------------------------+
+
+            IsDeviceJoined : YES
+             IsUserAzureAD : NO
+             PolicyEnabled : NO
+          PostLogonEnabled : YES
+            DeviceEligible : NO
+        SessionIsNotRemote : NO
+            CertEnrollment : none
+              PreReqResult : WillNotProvision
+
+For more information, please visit https://www.microsoft.com/aadjerrors
+C:\Users\LocalAdmin>
