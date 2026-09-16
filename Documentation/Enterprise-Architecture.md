@@ -1,20 +1,23 @@
                         Microsoft 365
                                │
                                ▼
-                       Microsoft Entra ID
+                      Microsoft Entra ID
                                │
                                ▼
-                  Microsoft Entra Connect Sync
+                         Hybrid Device
+                           Registration
                                │
                                ▼
-                     Active Directory
-                      byuholdings.local
+                         BYU-W11-01
                                │
-              ┌────────────────┴───────────────┐
-              │                                │
-              ▼                                ▼
-            DC01                         BYU-W11-01
-                                              │
-                                              ▼
-                                       Microsoft Intune
-                                          (Pending)
+                 Domain Joined + Entra Joined
+                               │
+                               ▼
+                    Active Directory (DC01)
+                               │
+                               ▼
+                    Entra Connect Sync
+                               │
+                               ▼
+                     Microsoft Intune
+                      (Next Phase)
