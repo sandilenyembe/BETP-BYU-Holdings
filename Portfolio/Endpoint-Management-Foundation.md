@@ -143,3 +143,19 @@ Activities:
 Outcome:
 
 Prepared the BYU Holdings environment for enterprise hybrid endpoint registration and Microsoft Intune integration.
+
+## Hybrid Microsoft Entra ID Join
+
+Successfully configured and validated Hybrid Microsoft Entra ID Join for a Windows 11 endpoint.
+
+Activities:
+
+- Configured Hybrid Microsoft Entra ID Join using Microsoft Entra Connect Sync.
+- Configured SCP settings for device discovery.
+- Performed synchronization validation.
+- Verified device registration using dsregcmd.
+- Confirmed successful authentication with Microsoft Entra ID.
+
+Outcome:
+
+Established a hybrid-managed Windows endpoint capable of participating in modern Microsoft cloud management scenarios including Microsoft Intune enrollment and Conditional Access.
