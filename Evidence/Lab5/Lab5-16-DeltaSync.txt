@@ -1,0 +1,5 @@
+PS C:\Users\Administrator> Start-ADSyncSyncCycle -PolicyType Delta
+
+ Result
+ ------
+Success
