@@ -209,3 +209,34 @@ Purpose:
 Evidence:
 
 Lab5-11-EntraConnect-Configure.png
+
+## Hybrid Microsoft Entra ID Join Configuration
+
+### Device Operating Systems
+
+Selected:
+
+- Windows 10 or later domain-joined devices
+
+### SCP Configuration
+
+Forest:
+
+byuholdings.local
+
+Authentication Service:
+
+Microsoft Entra ID
+
+Purpose:
+
+The Service Connection Point (SCP) enables domain-joined devices to discover the Microsoft Entra tenant and register as Hybrid Microsoft Entra ID joined devices.
+
+Status:
+
+Configuration Initiated
+
+Evidence:
+
+- Lab5-12-Hybrid-Join-OS.png
+- Lab5-13-Hybrid-Join-SCP.png
