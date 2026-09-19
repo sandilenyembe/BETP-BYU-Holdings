@@ -8,13 +8,12 @@
 | Lab3 | Active Directory Enterprise Structure | Complete |
 | Lab4 | Microsoft 365 & Hybrid Identity | Complete |
 | Lab5 | Microsoft Intune Foundation | In Progress |
-| Lab6 | Azure Fundamentals | Pending |
-| Lab7 | Endpoint Management | Pending |
-| Lab8 | Cybersecurity Fundamentals | Pending |
-| Lab9 | Power Platform & Automation | Pending |
-| Lab10 | Data & Analytics | Pending |
-| Lab11 | AI & Copilot Services | Pending |
-| Lab12 | Networking Fundamentals | Pending |
-| Lab13 | Linux Administration | Pending |
-| Lab14 | Digital Marketing & SEO | Pending |
-| Lab15 | Web Development | Pending |
+| Lab6 | Device Enrollment & Compliance | Pending |
+| Lab7 | Group Policy & Endpoint Hardening | Pending |
+| Lab8 | Endpoint Security & Defender | Pending |
+| Lab9 | PowerShell for Enterprise Administration | Pending |
+| Lab10 | Windows Administration & Troubleshooting | Pending |
+| Lab11 | Azure Fundamentals for EUC | Pending |
+| Lab12 | Enterprise Documentation & Operations | Pending |
+| Capstone | Complete Enterprise Endpoint Deployment | Pending |
+``
