@@ -1,42 +1,27 @@
-# Architecture Version 6
+## Architecture Version 6 - Hybrid Endpoint Management
 
-## Identity and Endpoint Architecture
+### Components
 
-Microsoft 365
-        │
-        ▼
-Microsoft Entra ID
-        │
-        ▼
-Microsoft Entra Connect Sync
-        │
-        ▼
-Active Directory Domain Services
-(byuholdings.local)
-        │
-        ├── DC01
-        │
-        └── BYU-W11-01
-                │
-                ▼
-Hybrid Microsoft Entra ID Join
-
-## Current Status
-
-Completed:
-
+- Hyper-V
+- DC01
 - Active Directory
 - DNS
-- Microsoft 365 Tenant
+- Microsoft Entra Connect
 - Microsoft Entra ID
-- Microsoft Entra Connect Sync
-- Hybrid User Identity
-- Windows 11 Endpoint Deployment
-- Hybrid Device Registration
+- Microsoft 365
+- BYU-W11-01
 
-Pending:
+### Validation Status
 
-- Microsoft Intune Enrollment
-- Compliance Policies
-- Configuration Profiles
-- Endpoint Security
+Device Name:
+BYU-W11-01
+
+Validation Results:
+
+- DomainJoined = YES
+- AzureAdJoined = YES
+- DeviceAuthStatus = SUCCESS
+
+### Outcome
+
+Successfully implemented a Hybrid Microsoft Entra ID-joined Windows 11 endpoint integrated with Active Directory and Microsoft Entra ID.
