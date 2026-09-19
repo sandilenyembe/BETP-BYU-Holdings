@@ -16,4 +16,3 @@
 | Lab11 | Azure Fundamentals for EUC | Pending |
 | Lab12 | Enterprise Documentation & Operations | Pending |
 | Capstone | Complete Enterprise Endpoint Deployment | Pending |
-``
