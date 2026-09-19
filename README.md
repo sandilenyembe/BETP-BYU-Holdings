@@ -8,9 +8,7 @@ Linux, SEO and Automation.
 ## Lab Environment
 
 Host:
-Dell G5 5590
-Intel i7-9750H
-32GB RAM
+Dell
 
 Hypervisor:
 Hyper-V
