@@ -145,9 +145,7 @@ Tenant confirmed ready for endpoint onboarding activities.
 
 Create governance structures supporting endpoint management.
 
-### Activities
-
-###Completed Creation of:
+### Completed Creation of:
 
 ### SG-Intune-Administrators
 
