@@ -2,30 +2,30 @@
 
 ## Overview
 
-The BYU Holdings Enterprise Technology Program (BETP) is a practical enterprise technology portfolio designed to develop real-world administration, endpoint management, and infrastructure skills.
+The BYU Holdings Enterprise Technology Program (BETP) is a practical enterprise technology project designed to develop and demonstrate capabilities across infrastructure operations, identity management, endpoint administration, enterprise security, Microsoft 365 administration, and technical documentation.
 
-The repository demonstrates enterprise technology implementations using a fictional company, BYU Holdings, as a realistic business scenario.
+The project uses BYU Holdings as a fictional enterprise environment to simulate the planning, implementation, validation, troubleshooting, and operation of enterprise technology solutions.
 
-The objective is to build, manage, secure, document, and troubleshoot enterprise technology solutions while producing recruiter-ready portfolio evidence.
+## Project Objectives
 
-## Career Objectives
+The primary objectives of BETP are to:
 
-This repository is aligned to the following job roles:
+- Build practical enterprise technology experience.
+- Design and implement enterprise infrastructure services.
+- Implement and manage hybrid identity solutions.
+- Develop endpoint management capabilities.
+- Establish security and governance controls.
+- Produce professional enterprise documentation.
+- Maintain architecture documentation throughout project evolution.
+- Demonstrate operational support and troubleshooting activities.
 
-- End User Computing (EUC) Analyst
-- Endpoint Administrator
-- Microsoft 365 Administrator
-- Systems Administrator
-- IT Support Engineer
-- Junior Infrastructure Engineer
+## Enterprise Environment
 
-## Company Environment
+### Organization
 
-### Company
+Company: BYU Holdings
 
-BYU Holdings
-
-### Domain
+Domain:
 
 byuholdings.local
 
@@ -41,13 +41,13 @@ byuholdings.local
 - IT
 - Security
 
-## Lab Environment
+## Laboratory Platform
 
-### Host Machine
+### Host Platform
 
 - Enterprise Workstation
 - Intel i7 Processor
-- 32GB RAM
+- 32 GB RAM
 - Windows 11 Pro
 - Hyper-V Enabled
 
@@ -61,130 +61,100 @@ byuholdings.local
 - Microsoft Entra ID
 - Microsoft Entra Connect
 - Microsoft Intune
-- Microsoft Defender
+- Windows 11
 - Group Policy
+- Microsoft Defender
 - PowerShell
 - Azure Fundamentals
 
-### Supporting Technologies
+## Project Progression
 
-- Networking
-- Linux Administration
-- Automation
+### Lab 0
 
-## Project Goals
+Enterprise Foundation
 
-The project is designed to demonstrate competency in:
+Status: Complete
 
-- Enterprise Infrastructure
-- Hybrid Identity
-- Microsoft 365 Administration
-- Endpoint Lifecycle Management
-- Windows Administration
-- Endpoint Security
-- Device Compliance
-- Technical Documentation
-- Operational Procedures
-- Enterprise Troubleshooting
+### Lab 1
 
-## Completed Milestones
+Hyper-V and Virtualization
 
-### Lab0 – Enterprise Foundation
+Status: Complete
 
-Completed
+### Lab 2
 
-### Lab1 – Hyper-V Infrastructure
+Active Directory and DNS
 
-Completed
+Status: Complete
 
-### Lab2 – Active Directory and DNS
+### Lab 3
 
-Completed
+Enterprise Structure and Governance
 
-### Lab3 – Enterprise Structure and Documentation
+Status: Complete
 
-Completed
+### Lab 4
 
-### Lab4 – Microsoft 365 and Hybrid Identity
+Microsoft 365 and Hybrid Identity
 
-Completed
+Status: Complete
 
-### Lab5 – Microsoft Intune Foundation
+### Lab 5
 
-In Progress
+Microsoft Intune Foundation
 
-## Current Architecture Status
+Status: In Progress
 
-Implemented Components:
+Current focus:
 
-- Active Directory
-- DNS
-- Microsoft 365
-- Microsoft Entra ID
-- Microsoft Entra Connect
-- Hybrid Identity
-- Windows 11 Enterprise Endpoint
-- Hybrid Microsoft Entra ID Join
+- Intune enrollment preparation
+- Endpoint management readiness
+- Device governance
 
-Current Architecture Version:
+## Current Validated State
 
-**Enterprise Architecture v6**
+Implemented:
 
-## Current Lab
+- Hyper-V environment
+- Domain controller deployment
+- Active Directory forest
+- DNS services
+- Enterprise organizational structure
+- Microsoft 365 tenant
+- Microsoft Entra ID integration
+- Microsoft Entra Connect synchronization
+- Hybrid identity
+- Hybrid Microsoft Entra ID joined Windows 11 endpoint
+- Administrative security groups for endpoint management
 
-### Lab 5 – Microsoft Intune Foundation
-
-Current focus areas:
-
-- Device Enrollment
-- Compliance Policies
-- Configuration Profiles
-- Endpoint Security
-
-## Portfolio Evidence
-
-Current evidence includes:
-
-- Hyper-V deployment
-- Active Directory deployment
-- DNS implementation
-- Organizational Unit design
-- User administration
-- Group administration
-- Microsoft 365 tenant deployment
-- Microsoft Entra ID administration
-- Microsoft Entra Connect implementation
-- Hybrid identity implementation
-- Windows 11 endpoint deployment
-- Hybrid Microsoft Entra Join validation
-
-## Repository Structure
+## Documentation Structure
 
 ### Documentation
 
-Design documentation and operational records.
-
-### Architecture
-
-Architecture diagrams and version history.
+Contains architecture, design, governance, operational, and implementation documentation.
 
 ### Portfolio
 
-Recruiter-focused implementation summaries.
+Contains public-facing implementation summaries and technical achievements.
 
-## End Goal
+### Architecture
 
-Build a recruiter-ready enterprise technology portfolio demonstrating practical experience in:
+Contains architecture version history and supporting diagrams.
 
-- Active Directory
-- DNS
-- Microsoft 365
-- Microsoft Entra ID
-- Microsoft Entra Connect
-- Microsoft Intune
-- Windows Endpoint Administration
-- Endpoint Security
-- PowerShell Administration
-- Azure Fundamentals
-- Enterprise Operations
-- Technical Documentation
+## Guiding Principles
+
+- Technology-first documentation
+- Evidence-driven validation
+- Progressive architecture evolution
+- Enterprise operational practices
+- Repeatable implementation processes
+- Security-conscious configuration
+- Continuous documentation maintenance
+
+## Current Milestone
+
+Lab 5.8
+
+Microsoft Intune Enrollment
+
+The next milestone is the enrollment and validation of the first managed endpoint within the BYU Holdings environment.
