@@ -1,36 +1,85 @@
 # Architecture Overview
 
-## Company
+## Current Architecture Version
 
-BYU Holdings
+Enterprise-Architecture-v6
 
-## Domain
+## Architecture Status
 
-byuholdings.local
+Current State: Active
 
-## Departments
+Validation Status: Validated
 
-- Executive
-- Finance
-- Sales
-- Marketing
-- Operations
-- HR
-- Projects
-- IT
-- Security
+Documentation Status: Current
 
-## Core Technologies
+## Infrastructure Components
 
-- Microsoft 365
-- Azure
+### Virtualization
+
 - Hyper-V
+
+### On-Premises Services
+
+- Windows Server
 - Active Directory
 - DNS
-- DHCP
-- Intune
-- Microsoft Defender
 
-## Current Phase
+### Cloud Services
 
-Foundation
+- Microsoft 365
+- Microsoft Entra ID
+
+### Synchronization Services
+
+- Microsoft Entra Connect
+
+### Endpoint Services
+
+- Windows 11
+- Microsoft Intune Foundation
+
+## Hybrid Identity Status
+
+| Component | Status |
+|------------|------------|
+| Microsoft 365 Tenant | Operational |
+| Microsoft Entra ID | Operational |
+| Active Directory | Operational |
+| DNS | Operational |
+| Microsoft Entra Connect | Operational |
+| User Synchronization | Operational |
+| Hybrid Identity | Operational |
+
+## Endpoint Status
+
+| Endpoint | Status |
+|-----------|-----------|
+| BYU-W11-01 | Hybrid Joined |
+
+## Administrative Groups
+
+- SG-Intune-Administrators
+- SG-BYU-Managed-Devices
+- SG-BYU-Test-Devices
+- SG-BYU-Compliance-Pilot
+
+## Architecture History
+
+| Version | Description |
+|----------|-------------|
+| v1 | Enterprise Foundation |
+| v2 | Active Directory and DNS |
+| v3 | Enterprise Structure |
+| v4 | Microsoft 365 Foundation |
+| v5 | Hybrid Identity |
+| v6 | Hybrid Endpoint Management |
+
+## Next Planned Architecture Change
+
+Enterprise-Architecture-v7
+
+Expected additions:
+
+- Microsoft Intune Enrollment
+- Device Management Validation
+- Compliance Management Foundation
