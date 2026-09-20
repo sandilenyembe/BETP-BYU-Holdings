@@ -1,42 +1,138 @@
-# BYU Holdings Enterprise Technology Program (BETP)
+# Project Charter
 
-## Purpose
+## Project Name
 
-The BYU Holdings Enterprise Technology Program is a practical technology laboratory designed to develop real-world skills in Microsoft 365, Azure, Endpoint Management, Cybersecurity, Power Platform, Data, AI, Networking, Linux, Web Development, SEO and Automation.
+BYU Holdings Enterprise Technology Program (BETP)
 
-## Company
+## Project Purpose
 
-BYU Holdings
+The BYU Holdings Enterprise Technology Program is a practical technology portfolio designed to develop enterprise administration skills through hands-on implementation and documentation.
 
-## Domain
+The project provides a structured learning path aligned to common duties performed by:
 
-byuholdings.local
+- End User Computing Analysts
+- Endpoint Administrators
+- Microsoft 365 Administrators
+- Systems Administrators
+- IT Support Engineers
 
-## Objectives
+## Business Scenario
 
-- Build enterprise infrastructure skills
-- Develop cloud administration capabilities
-- Create a professional technology portfolio
-- Prepare for enterprise IT roles
-- Demonstrate consulting-grade documentation
+BYU Holdings is a fictional organization used to simulate the deployment and operation of real-world enterprise technology.
 
-## Technology Stack
+The environment provides a platform for developing practical experience while generating professional portfolio evidence.
 
-- Microsoft 365
-- Azure
-- Windows Server
+## Strategic Objectives
+
+### Primary Objective
+
+Develop practical expertise in:
+
+- Endpoint Management
+- Hybrid Identity
+- Microsoft 365 Administration
+- Enterprise Infrastructure
+- Enterprise Security
+
+### Secondary Objective
+
+Produce recruiter-ready documentation demonstrating implementation experience.
+
+## Scope
+
+### In Scope
+
 - Hyper-V
-- Linux
-- Power Platform
-- Microsoft Defender
-- Intune
-- GitHub
+- Windows Server
+- Active Directory
+- DNS
+- Microsoft 365
+- Microsoft Entra ID
+- Microsoft Entra Connect
+- Microsoft Intune
+- Endpoint Security
+- Group Policy
 - PowerShell
+- Microsoft Defender
+- Azure Fundamentals
+- Enterprise Documentation
+
+### Supporting Scope
+
+- Networking
+- Linux Administration
+- Automation
+
+### Out of Scope
+
+- Digital Marketing
+- SEO
+- Website Development
+- AI Consulting
+- Customer Acquisition
+- Business Operations Frameworks
+- Commercial Service Delivery
+- Sales Frameworks
 
 ## Success Criteria
 
-- Complete all planned labs
-- Maintain documentation
-- Capture evidence
-- Publish portfolio artifacts
-``
+The project will be considered successful when evidence exists demonstrating:
+
+- Active Directory administration
+- DNS administration
+- Hybrid Identity deployment
+- Microsoft 365 administration
+- Intune administration
+- Endpoint lifecycle management
+- Enterprise troubleshooting
+- Technical documentation
+
+## Deliverables
+
+### Infrastructure
+
+- Hyper-V Environment
+- Domain Controller
+- Active Directory
+- DNS
+
+### Identity
+
+- Microsoft 365 Tenant
+- Microsoft Entra ID
+- Microsoft Entra Connect
+
+### Endpoints
+
+- Hybrid Joined Windows 11 Endpoint
+- Intune Managed Endpoint
+
+### Security
+
+- Compliance Policies
+- Configuration Profiles
+- Endpoint Security Policies
+
+### Documentation
+
+- Architecture Documentation
+- Operational Documentation
+- Portfolio Documentation
+
+## Current Status
+
+Project Phase:
+
+Microsoft Intune Foundation
+
+Overall Progress:
+
+Advanced Implementation Phase
+
+Current Architecture Version:
+
+v6
+
+Current Readiness:
+
+Approaching Job-Ready Capability
