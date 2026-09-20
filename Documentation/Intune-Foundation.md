@@ -1,10 +1,155 @@
+# Microsoft Intune Foundation
+
+## Purpose
+
+This document records the implementation and evolution of Microsoft Intune readiness activities within the BYU Holdings environment.
+
+---
+
+# Phase 1
+
+## Administrative Access Validation
+
+### Objective
+
+Confirm administrative access to Microsoft Intune.
+
+### Activities
+
+Completed:
+
+- Microsoft 365 validation
+- Microsoft Entra validation
+- Intune access verification
+
+### Validation
+
+Validated:
+
+- Administrator access
+- Service availability
+- Portal accessibility
+
+### Outcome
+
+Microsoft Intune administration capability established.
+
+---
+
+# Phase 2
+
 ## Tenant Assessment
 
+### Objective
 
+Assess tenant readiness for endpoint management.
 
-## Administrative Groups
+### Tenant Administration
 
-The following Microsoft Entra security groups were created to support endpoint management.
+Tenant Name:
+byuhold.onmicrosoft.com
+
+MDM Authority:
+Microsoft Intune
+
+Account Status:
+Active
+
+Licensed Users:
+9
+
+Intune Licenses:
+25
+
+Enrolled Devices:
+0
+
+Service Release:
+2608
+
+### Assessment
+
+The BYU Holdings Microsoft Intune tenant is active and operational.
+
+Findings:
+
+- Intune is configured as the MDM authority.
+- Tenant licensing is available.
+- No devices have been enrolled.
+- Environment is ready for endpoint onboarding.
+- Hybrid identity integration has already been established through Microsoft Entra Connect Sync.
+
+### Next Step
+
+Windows 11 device enrollment testing.
+
+### Enrollment Validation
+
+Navigation:
+
+Devices → Enrollment → Windows
+
+Available Enrollment Features:
+
+- Automatic Enrollment
+- CNAME Validation
+- Co-management Settings
+- Device Platform Restrictions
+- Device Limit Restrictions
+- Enrollment Notifications
+
+Assessment:
+
+The Microsoft Intune tenant is configured with the default enrollment framework and is capable of onboarding Windows devices.
+
+Current Managed Devices:
+0
+
+Readiness:
+Ready for Windows enrollment testing.
+
+Evidence:
+
+- Lab5-02-Tenant-Administration.png
+- Lab5-03-Enrollment-Overview.png
+- Lab5-04-All-Devices.png
+
+### Activities
+
+Completed:
+
+- Licensing review
+- Service review
+- Identity review
+- Administrative review
+
+### Validation
+
+Validated:
+
+- Intune availability
+- Identity integration readiness
+- Endpoint management readiness
+
+### Outcome
+
+Tenant confirmed ready for endpoint onboarding activities.
+
+---
+
+# Phase 3
+
+## Administrative Governance
+
+### Objective
+
+Create governance structures supporting endpoint management.
+
+### Activities
+
+Completed:
+
+Creation of:
 
 ### SG-Intune-Administrators
 
@@ -37,6 +182,30 @@ Pilot user and device group for compliance policy validation.
 - Aligns with enterprise Intune best practices
 - Enables future RBAC implementation
 - Simplifies policy assignment targeting
+
+### Validation
+
+Validated:
+
+- Group creation
+- Membership management
+- Administrative assignment model
+
+### Outcome
+
+Governance baseline established.
+
+---
+
+# Phase 4
+
+## Endpoint Readiness
+
+### Objective
+
+Prepare the first endpoint for management.
+
+### Activities
 
 ## Hybrid Join Assessment
 
@@ -207,208 +376,6 @@ Evidence:
 
 - Lab5-16-DeltaSync.txt
 - Lab5-17-dsregcmd-after-hybrid.txt
-
-Status:
-
-Completed
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Microsoft Intune Foundation
-
-## Purpose
-
-This document records the implementation and evolution of Microsoft Intune readiness activities within the BYU Holdings environment.
-
----
-
-# Phase 1
-
-## Administrative Access Validation
-
-### Objective
-
-Confirm administrative access to Microsoft Intune.
-
-### Activities
-
-Completed:
-
-- Microsoft 365 validation
-- Microsoft Entra validation
-- Intune access verification
-
-### Validation
-
-Validated:
-
-- Administrator access
-- Service availability
-- Portal accessibility
-
-### Outcome
-
-Microsoft Intune administration capability established.
-
----
-
-# Phase 2
-
-## Tenant Assessment
-
-### Objective
-
-Assess tenant readiness for endpoint management.
-
-### Tenant Administration
-
-Tenant Name:
-byuhold.onmicrosoft.com
-
-MDM Authority:
-Microsoft Intune
-
-Account Status:
-Active
-
-Licensed Users:
-9
-
-Intune Licenses:
-25
-
-Enrolled Devices:
-0
-
-Service Release:
-2608
-
-### Assessment
-
-The BYU Holdings Microsoft Intune tenant is active and operational.
-
-Findings:
-
-- Intune is configured as the MDM authority.
-- Tenant licensing is available.
-- No devices have been enrolled.
-- Environment is ready for endpoint onboarding.
-- Hybrid identity integration has already been established through Microsoft Entra Connect Sync.
-
-### Next Phase
-
-Windows 11 device enrollment testing.
-
-## Step 2 - Tenant Assessment
-
-### Enrollment Validation
-
-Navigation:
-
-Devices → Enrollment → Windows
-
-Available Enrollment Features:
-
-- Automatic Enrollment
-- CNAME Validation
-- Co-management Settings
-- Device Platform Restrictions
-- Device Limit Restrictions
-- Enrollment Notifications
-
-Assessment:
-
-The Microsoft Intune tenant is configured with the default enrollment framework and is capable of onboarding Windows devices.
-
-Current Managed Devices:
-0
-
-Readiness:
-Ready for Windows enrollment testing.
-
-Evidence:
-
-- Lab5-02-Tenant-Administration.png
-- Lab5-03-Enrollment-Overview.png
-- Lab5-04-All-Devices.png
-
-### Activities
-
-Completed:
-
-- Licensing review
-- Service review
-- Identity review
-- Administrative review
-
-### Validation
-
-Validated:
-
-- Intune availability
-- Identity integration readiness
-- Endpoint management readiness
-
-### Outcome
-
-Tenant confirmed ready for endpoint onboarding activities.
-
----
-
-# Phase 3
-
-## Administrative Governance
-
-### Objective
-
-Create governance structures supporting endpoint management.
-
-### Activities
-
-Completed:
-
-Creation of:
-
-```text
-SG-Intune-Administrators
-SG-BYU-Managed-Devices
-SG-BYU-Test-Devices
-SG-BYU-Compliance-Pilot
-```
-
-### Validation
-
-Validated:
-
-- Group creation
-- Membership management
-- Administrative assignment model
-
-### Outcome
-
-Governance baseline established.
-
----
-
-# Phase 4
-
-## Endpoint Readiness
-
-### Objective
-
-Prepare the first endpoint for management.
-
-### Activities
 
 Completed:
 
