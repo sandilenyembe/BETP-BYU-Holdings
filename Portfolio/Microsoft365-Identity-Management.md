@@ -1,21 +1,61 @@
 # Microsoft 365 Identity Management
 
-Designed and implemented the cloud identity structure for BYU Holdings.
+## Overview
 
-Activities:
+This implementation focused on the creation of a hybrid-capable identity platform linking cloud identity services with on-premises directory services.
 
-- Created departmental user accounts
-- Implemented security groups
-- Assigned Microsoft 365 E3 licenses
-- Structured role-based identity administration
-- Documented identity governance model
+## Technologies Implemented
 
-Technologies:
-
-- Microsoft 365
 - Microsoft Entra ID
-- Microsoft 365 Admin Center
+- Microsoft Entra Connect
+- Active Directory
 
-Business Value:
+## Objectives
 
-Provides scalable identity management and prepares the environment for hybrid identity and endpoint management.
+- Centralize identity management.
+- Synchronize user identities.
+- Reduce administrative duplication.
+- Support future endpoint management initiatives.
+
+## Activities Completed
+
+### Identity Design
+
+Completed:
+
+- Identity architecture review
+- Synchronization planning
+- Governance planning
+
+### Identity Integration
+
+Completed:
+
+- Microsoft Entra Connect deployment
+- Password Hash Synchronization
+- User synchronization
+- Group synchronization
+
+## Validation
+
+Validated:
+
+- Directory synchronization
+- User synchronization
+- Authentication functionality
+- Cloud object visibility
+
+## Operational Outcomes
+
+Identity administration became centralized while supporting cloud-based services.
+
+## Skills Demonstrated
+
+- Identity administration
+- Synchronization troubleshooting
+- Hybrid identity operations
+- Directory governance
+
+## Lessons Learned
+
+Hybrid identity implementation should be validated incrementally to simplify troubleshooting and maintain synchronization consistency.
