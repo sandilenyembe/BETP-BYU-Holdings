@@ -4,135 +4,124 @@
 
 BYU Holdings Enterprise Technology Program (BETP)
 
+## Project Type
+
+Enterprise Technology Implementation and Operations Program
+
+## Project Sponsor
+
+BYU Holdings (Fictional Enterprise Environment)
+
 ## Project Purpose
 
-The BYU Holdings Enterprise Technology Program is a practical technology portfolio designed to develop enterprise administration skills through hands-on implementation and documentation.
+The purpose of BETP is to develop practical experience through the design, deployment, administration, validation, troubleshooting, and operation of enterprise technology services.
 
-The project provides a structured learning path aligned to common duties performed by:
-
-- End User Computing Analysts
-- Endpoint Administrators
-- Microsoft 365 Administrators
-- Systems Administrators
-- IT Support Engineers
+The project serves as a continuously evolving technology environment that demonstrates enterprise infrastructure, identity, endpoint, security, and operational capabilities.
 
 ## Business Scenario
 
-BYU Holdings is a fictional organization used to simulate the deployment and operation of real-world enterprise technology.
+BYU Holdings is a fictional organization used to simulate real-world enterprise technology operations.
 
-The environment provides a platform for developing practical experience while generating professional portfolio evidence.
+The environment provides a platform for implementing technologies commonly used within enterprise organizations.
 
-## Strategic Objectives
+## Project Scope
 
-### Primary Objective
-
-Develop practical expertise in:
-
-- Endpoint Management
-- Hybrid Identity
-- Microsoft 365 Administration
-- Enterprise Infrastructure
-- Enterprise Security
-
-### Secondary Objective
-
-Produce recruiter-ready documentation demonstrating implementation experience.
-
-## Scope
-
-### In Scope
+### Infrastructure
 
 - Hyper-V
 - Windows Server
 - Active Directory
 - DNS
-- Microsoft 365
-- Microsoft Entra ID
-- Microsoft Entra Connect
-- Microsoft Intune
-- Endpoint Security
-- Group Policy
-- PowerShell
-- Microsoft Defender
-- Azure Fundamentals
-- Enterprise Documentation
-
-### Supporting Scope
-
-- Networking
-- Linux Administration
-- Automation
-
-### Out of Scope
-
-- Digital Marketing
-- SEO
-- Website Development
-- AI Consulting
-- Customer Acquisition
-- Business Operations Frameworks
-- Commercial Service Delivery
-- Sales Frameworks
-
-## Success Criteria
-
-The project will be considered successful when evidence exists demonstrating:
-
-- Active Directory administration
-- DNS administration
-- Hybrid Identity deployment
-- Microsoft 365 administration
-- Intune administration
-- Endpoint lifecycle management
-- Enterprise troubleshooting
-- Technical documentation
-
-## Deliverables
-
-### Infrastructure
-
-- Hyper-V Environment
-- Domain Controller
-- Active Directory
-- DNS
 
 ### Identity
 
-- Microsoft 365 Tenant
 - Microsoft Entra ID
 - Microsoft Entra Connect
+- Hybrid Identity
 
-### Endpoints
+### Endpoint Management
 
-- Hybrid Joined Windows 11 Endpoint
-- Intune Managed Endpoint
+- Microsoft Intune
+- Windows Endpoint Management
+- Group Policy
 
 ### Security
 
-- Compliance Policies
-- Configuration Profiles
-- Endpoint Security Policies
+- Microsoft Defender
+- Endpoint Security
+- Administrative Governance
+
+### Administration
+
+- Microsoft 365 Administration
+- PowerShell Administration
+- Operational Procedures
 
 ### Documentation
 
 - Architecture Documentation
+- Design Documentation
 - Operational Documentation
-- Portfolio Documentation
+- Validation Documentation
 
-## Current Status
+## Project Goals
 
-Project Phase:
+### Goal 1
 
-Microsoft Intune Foundation
+Build a functional enterprise infrastructure environment.
 
-Overall Progress:
+### Goal 2
 
-Advanced Implementation Phase
+Implement hybrid identity between on-premises and cloud services.
 
-Current Architecture Version:
+### Goal 3
 
-v6
+Deploy and manage enterprise endpoints.
 
-Current Readiness:
+### Goal 4
 
-Approaching Job-Ready Capability
+Implement enterprise administration and security controls.
+
+### Goal 5
+
+Produce professional technical documentation.
+
+### Goal 6
+
+Demonstrate troubleshooting and operational support practices.
+
+## Success Criteria
+
+The project will be considered successful when the environment includes:
+
+- Active Directory services
+- DNS services
+- Microsoft 365 integration
+- Microsoft Entra ID integration
+- Microsoft Entra Connect synchronization
+- Hybrid identity
+- Managed Windows endpoints
+- Documented operational procedures
+- Architecture version history
+- Validation evidence
+
+## Governance Principles
+
+- Configuration changes must be documented.
+- Architecture changes must be versioned.
+- Validation activities must be recorded.
+- Naming standards must remain consistent.
+- Security should be considered during every implementation phase.
+- Documentation must remain synchronized with the environment state.
+
+## Current Project Phase
+
+Phase: Endpoint Management Foundation
+
+Current Lab:
+
+Lab 5 - Microsoft Intune Foundation
+
+Current Activity:
+
+Microsoft Intune Enrollment Preparation
